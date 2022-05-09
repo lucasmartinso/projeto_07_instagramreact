@@ -1,4 +1,13 @@
-function Post(props) { 
+import React from "react";
+
+function Post(props) {   
+    
+    const [classButton, setClassButon]= React.useState(); 
+
+    function curtir() { 
+        setClassButon(".rodape-cima > .curtidas-comentarios > ion-icon.vermelho");
+    }  
+
     return(
         <div class="publicacao1">
             <div class="cabecalho">
@@ -10,7 +19,7 @@ function Post(props) {
             <div class="rodape"> 
             <div class="rodape-cima">
                 <div class="curtidas-comentarios">
-                    <ion-icon name="heart-outline"></ion-icon> 
+                    <ion-icon name="heart-outline" onClick= {curtir}></ion-icon> 
                     <ion-icon name="chatbubble-outline"></ion-icon> 
                     <ion-icon name="paper-plane-outline"></ion-icon>   
                 </div>  
@@ -34,9 +43,10 @@ function Post(props) {
             </div>
         </div>   
     );
-}
+} 
 
-export default function Publicacoes() {  
+export default function Publicacoes() {   
+
     const dados =  [ 
         {
             urlPerfil: "https://i1.wp.com/surgiu.com.br/wp-content/uploads/2022/03/iran-luva-de-pedreiro-1.jpg?fit=400%2C400&ssl=1", 

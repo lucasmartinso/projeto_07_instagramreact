@@ -328,6 +328,10 @@ ul {
   margin-bottom: 13px;
 }
 
+.rodape-cima > .curtidas-comentarios > ion-icon.vermelho { 
+  background-color: red;
+} 
+
 .salvar {
   margin-left: 475px;
   margin-top: 14px;
