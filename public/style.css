@@ -1,0 +1,666 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 100%;
+  height: 54px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  position: fixed;
+  z-index: 1;
+} 
+
+.menu ion-icon { 
+  width: 22px; 
+  height: 22px;
+}
+
+.mobile-aviao {
+  display: none;
+}
+
+ion-icon:hover {
+  cursor: pointer;
+}
+
+.borda-vertical {
+  width: 1px;
+  height: 22px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #f5f6f7;
+}
+
+.menu img {
+  width: 103px;
+  height: 29px;
+}
+
+.icone-instagram {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pesquisa {
+  width: 215px;
+  height: 26px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  font-size: 13px;
+}
+
+.icones-perfil {
+  width: 150px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100%;
+}
+
+.principal {
+  display: flex;
+}
+
+.feed {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 80px;
+}
+
+.stories {
+  height: 118px;
+  width: 614px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between; 
+  padding-left: 15px;
+}
+
+.stories > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-right: 13px;
+}
+
+.stories > ul > li > div {
+  background-image: url("./imagens/stories_background.jpg");
+  background-size: cover;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.stories > ul > li > div > img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+.publicacoes {
+  margin-top: 24px;
+}
+
+.stories h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.stories {
+  position: relative;
+}
+
+.img-do-storie {
+  position: absolute;
+  left: 3px;
+  top: 23px;
+}
+
+.img-do-storie img {
+  border-radius: 40px;
+  width: 49.5px;
+  height: 49.5px;
+}
+
+.img-do-storie2 {
+  position: absolute;
+  left: 83.5px;
+  top: 23.5px;
+}
+
+.img-do-storie2 img {
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.img-do-storie3 {
+  position: absolute;
+  left: 172px;
+  top: 24.5px;
+}
+
+.img-do-storie3 img {
+  border-radius: 40px;
+  width: 48px;
+  height: 48px;
+}
+
+.img-do-storie4 {
+  position: absolute;
+  left: 252px;
+  top: 24.5px;
+}
+
+.img-do-storie4 img {
+  border-radius: 40px;
+  width: 48px;
+  height: 48px;
+}
+
+.img-do-storie5 {
+  position: absolute;
+  left: 336px;
+  top: 24.5px;
+}
+
+.img-do-storie5 img {
+  border-radius: 40px;
+  width: 48px;
+  height: 48px;
+}
+
+.img-do-storie6 {
+  position: absolute;
+  left: 417px;
+  top: 24.5px;
+}
+
+.img-do-storie6 img {
+  border-radius: 40px;
+  width: 48px;
+  height: 48px;
+}
+
+.img-do-storie7 {
+  position: absolute;
+  left: 496px;
+  top: 23.1px;
+}
+
+.img-do-storie7 img {
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.img-do-storie8 {
+  position: absolute;
+  left: 577px;
+  top: 24.5px;
+}
+
+.img-do-storie8 img {
+  border-radius: 40px;
+  width: 48px;
+  height: 48px;
+}
+
+.setinha {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  left: 590px;
+  top: 40px;
+  color: rgba(192, 192, 189, 0.8);
+  font-weight: 500, medium;
+  font-size: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+}
+
+.setinha:hover {
+  cursor: pointer;
+} 
+
+.setinha  ion-icon { 
+  width: 24px;
+  height: 24px;
+}
+
+.stories p {
+  margin-top: 4px;
+  margin-left: 28px;
+  font-size: 12px;
+}
+
+.publicacao1 {
+  width: 614px;
+  height: 870px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  margin-top: 24px;
+}
+
+.cabecalho {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.bolinha-do-perfil img {
+  height: 32px;
+  width: 32px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.cabecalho h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 430px;
+}
+
+.cabecalho h5:hover {
+  cursor: pointer;
+}
+
+.iran img {
+  width: 610px;
+  height: 580px; 
+  object-fit: cover;
+}
+
+.curtidas-comentarios {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 14px;
+}
+
+.curtidas-comentarios ion-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.rodape-cima {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.salvar {
+  margin-left: 475px;
+  margin-top: 14px;
+}
+
+.salvar ion-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.rodape-meio {
+  margin-left: 15px;
+  display: flex;
+}
+
+.rodape-meio img {
+  border-radius: 10px;
+  width: 22px;
+  height: 22px;
+}
+
+.rodape-meio h4 {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-weight: 500, medium;
+  font-size: 14px;
+}
+
+.rodape-meio h4 strong {
+  font-weight: bold;
+}
+
+.rodape-baixo {
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.rodape-baixo h3 {
+  font-weight: 500, medium;
+  color: #8e8e8e;
+}
+
+.rodape-baixo h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500, medium;
+}
+
+.rodape-baixo h4 strong {
+  font-weight: bold;
+}
+
+.rodape-baixo h5 {
+  margin-top: 8px;
+  font-weight: 500, medium;
+  color: #8e8e8e;
+  font-size: 10px;
+}
+
+.rodape-adicional {
+  height: 38px;
+  display: flex;
+  border: 1px solid #dbdbdb;
+  margin-top: 18px;
+  display: flex;
+}
+
+.rodape-adicional ion-icon {
+  margin-left: 13px;
+  font-size: 25px;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
+.rodape-adicional input {
+  height: 33px;
+  width: 100%;
+  color: #8e8e8e;
+  font-size: 14px;
+  border: none;
+}
+
+.rodape-adicional h6 {
+  color: #cdeafd;
+  margin-right: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.sidebar {
+  margin-left: 63%;
+  margin-top: 100px;
+  position: fixed;
+}
+
+.sugestoes h3,
+.sugestoes h6,
+.sugestoes a,
+.sugestoes h5,
+.sugestoes strong,
+.sugestoes b:hover {
+  cursor: pointer;
+}
+
+.perfil-pessoal {
+  display: flex;
+}
+
+.sidebar img {
+  height: 56px;
+  width: 56px;
+  margin-right: 17px;
+  border-radius: 30px; 
+  object-fit: cover;
+}
+
+.descricao-perfil-pessoal {
+  margin-top: 11px;
+}
+
+.descricao-perfil-pessoal h3 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.descricao-perfil-pessoal h4 {
+  font-weight: 500, medium;
+  font-size: 14px;
+  color: #8e8e8e;
+  margin-top: 6px;
+}
+
+.barra-sugestoes {
+  margin-top: 24px;
+}
+
+.sugestoes h4:hover {
+  cursor: pointer;
+}
+
+.sugestoes1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.sugestoes1 h4 {
+  font-size: 12px;
+  font-weight: 500, medium;
+  color: #8e8e8e;
+}
+
+.sugestoes1 h5 {
+  margin-left: 137px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sugestoes {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.sugestoes h4 {
+  margin-right: 120px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sugestoes h5 {
+  font-size: 12px;
+  font-weight: 500, medium;
+  margin-top: 10px;
+  color: #8e8e8e;
+}
+
+.sugestoes h3 {
+  margin-left: 45px;
+  margin-top: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #139ef2;
+}
+
+.sugestoes img {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.sugestoes h6 {
+  margin-left: 17px;
+  margin-top: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #139ef2;
+}
+
+.sugestoes a {
+  margin-left: 30px;
+  margin-top: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #139ef2;
+}
+
+.sugestoes b {
+  margin-left: 55px;
+  margin-top: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #139ef2;
+}
+
+.sugestoes strong {
+  margin-left: 10px;
+  margin-top: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #139ef2;
+}
+
+.privacidade {
+  margin-top: 40px;
+  width: 300px;
+  height: 42px;
+  font-size: 11px;
+  font-weight: 400, medium;
+  color: #c7c7c7;
+}
+
+.ig-do-face {
+  margin-top: 18px;
+  font-size: 11px;
+  font-weight: 400, medium;
+  color: #c7c7c7;
+} 
+
+.menuMobile {  
+  display: none;
+}
+
+@media (max-width: 935px) {
+  .sidebar {
+    display: none;
+  }
+  .principal {
+    display: flex;
+    justify-content: center;
+  }
+  .publicacao1 .rodape-adicional {
+    display: none;
+  }
+  .publicacao1 {
+    height: 830px;
+  }
+}
+
+/* Layout Mobile  */
+@media (max-width: 614px) {
+  .menu .pesquisa {
+    display: none;
+  }
+  .icone-instagram .borda-vertical {
+    display: none;
+  }
+  .icone-instagram {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+  }
+  .icones-perfil {
+    display: none;
+  }
+  .mobile-aviao {
+    display: inline;
+  }
+  .principal {
+    margin-bottom: 30px;
+  }
+  .feed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .stories {
+    background-color: #fafafa;
+    border: none;
+  }
+  .stories .setinha {
+    display: none;
+  }
+  .publicacao1 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    width: 100%;
+  }
+  .publicacao1 .cabecalho {
+    margin-left: 0px;
+  }
+  .cabecalho h5 {
+    margin-right: 420px;
+  }
+  .publicacao1 .rodape-cima {
+    margin-left: 0px;
+  }
+  .publicacao1 .rodape-cima .salvar {
+    margin-left: 460px;
+  }
+  .publicacao1 .rodape-meio {
+    margin-left: 16px;
+  }
+  .publicacao1 .rodape-baixo {
+    margin-left: 18px;
+  }
+  .publicacao1 .iran img {
+    width: 100%;
+  } 
+  .menuMobile { 
+    display: inherit; 
+    width: 100%; 
+    height: 54px; 
+    padding: 18px; 
+    display: flex;  
+    justify-content: space-between; 
+    position: fixed; 
+    bottom: 0;
+    left: 0; 
+    background-color: #FFFFFF; 
+    border: 1px solid rgba(219, 219, 219, 1);
+  } 
+  .menuMobile > ion-icon { 
+    width: 20px; 
+    height: 20px;
+  }
+}
