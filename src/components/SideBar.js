@@ -11,13 +11,31 @@ function BarraLateral(props) {
     );
 } 
 
-const dados=  [
+const dados=  { 
+    url : [
     "https://s2.glbimg.com/2B5gNai0T7YtH2QCW6DAar1jeCc=/620x466/top/e.glbimg.com/og/ed/f/original/2021/05/01/lionel-messi.jpg",
     "https://yt3.ggpht.com/qB-nQZG1GLBnnMRmaFBMc_BRM96i9RaDyoxvxs6WRuQE6UHWO1IsqqDTgHivNFv2-Qmp_NCP5A=s900-c-k-c0x00ffffff-no-rj", 
     "https://www.rbsdirect.com.br/imagesrc/24554771.jpg?w=700",  
     "https://www.realmadrid.com/img/cc_1920px/_he13234_20211212092040.jpg",
-    "https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj" 
-]; 
+    "https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"  
+    ] , 
+
+    nome: [
+        "messi", 
+        "ronaldinho", 
+        "cristiano",
+        "vinijr",
+        "driven.edu"
+    ] ,
+
+    options : [ 
+        "Seguir", 
+        "Seguir", 
+        "Seguir", 
+        "Seguir", 
+        "Seguindo"
+    ]
+}; 
 
 
 export default function SideBar() { 
